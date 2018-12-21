@@ -8,4 +8,10 @@
 
 import Foundation
 
+// Day-1: Datatypes, TypeAnnotation, Inference, Tuples, String Interpolation
+
 Datatypes.playWithDatatypes()
+
+// Day-2: Operators , Conditionals , for-in
+
+Operators.playWithOperators()
