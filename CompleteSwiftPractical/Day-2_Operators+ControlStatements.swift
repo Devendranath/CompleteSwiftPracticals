@@ -138,5 +138,11 @@ class Operators {
             print(aPair.value)
         }
 
+        let gender = 1
+        
+        let age = gender == 0 ? 18 : 21
+        
+        print(age)
+        
     }
 }
