@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180E34B321DF0F360025603B /* Day-4-Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E34B221DF0F360025603B /* Day-4-Optionals.swift */; };
+		180E34B521DF14500025603B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E34B421DF14500025603B /* Person.swift */; };
+		180E34B721DF1CD30025603B /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E34B621DF1CD30025603B /* Functions.swift */; };
 		18BFB8C321CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFB8C221CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift */; };
 		18BFB8CF21DDC0D1003A8C70 /* Day-3-Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFB8CE21DDC0D1003A8C70 /* Day-3-Switch.swift */; };
 		18BFB8D121DDC538003A8C70 /* Day-3-TypeCast&Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFB8D021DDC538003A8C70 /* Day-3-TypeCast&Check.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		180E34B221DF0F360025603B /* Day-4-Optionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-4-Optionals.swift"; sourceTree = "<group>"; };
+		180E34B421DF14500025603B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		180E34B621DF1CD30025603B /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		18BFB8C221CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-2_Operators+ControlStatements.swift"; sourceTree = "<group>"; };
 		18BFB8CE21DDC0D1003A8C70 /* Day-3-Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-3-Switch.swift"; sourceTree = "<group>"; };
 		18BFB8D021DDC538003A8C70 /* Day-3-TypeCast&Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-3-TypeCast&Check.swift"; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 				18BFB8C221CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift */,
 				18BFB8CE21DDC0D1003A8C70 /* Day-3-Switch.swift */,
 				18BFB8D021DDC538003A8C70 /* Day-3-TypeCast&Check.swift */,
+				180E34B221DF0F360025603B /* Day-4-Optionals.swift */,
+				180E34B621DF1CD30025603B /* Functions.swift */,
+				180E34B421DF14500025603B /* Person.swift */,
 			);
 			path = CompleteSwiftPractical;
 			sourceTree = "<group>";
@@ -132,8 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C0185921CB4BEB00E2B6AD /* main.swift in Sources */,
+				180E34B321DF0F360025603B /* Day-4-Optionals.swift in Sources */,
 				18BFB8C321CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift in Sources */,
+				180E34B721DF1CD30025603B /* Functions.swift in Sources */,
 				18BFB8D121DDC538003A8C70 /* Day-3-TypeCast&Check.swift in Sources */,
+				180E34B521DF14500025603B /* Person.swift in Sources */,
 				18BFB8CF21DDC0D1003A8C70 /* Day-3-Switch.swift in Sources */,
 				18C0186021CB4C4700E2B6AD /* 1-Datatypes.swift in Sources */,
 			);

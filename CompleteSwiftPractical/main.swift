@@ -26,21 +26,10 @@ Switch.playWithSwitches()
 TypeCastAndChecks.playWithTypes()
 
 
-var res: Int?
+// Day-4: Optionals
 
-let a = "123s"
+Optionals.playWithOptionals()
 
-res = Int(a)
+// Functions
 
-print(res)
-
-
-let firstName = "Steve"
-
-var lastName: String!
-lastName = "Job"
-
-
-let fullName = firstName + lastName
-
-print(fullName)
+Functions().playWithFunctions()
