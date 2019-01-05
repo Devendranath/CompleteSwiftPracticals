@@ -33,3 +33,5 @@ Optionals.playWithOptionals()
 // Functions
 
 Functions().playWithFunctions()
+
+FunctionsTest.playWithFuctions()
