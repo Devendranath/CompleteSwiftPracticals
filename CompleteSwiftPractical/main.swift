@@ -35,3 +35,34 @@ Optionals.playWithOptionals()
 Functions().playWithFunctions()
 
 FunctionsTest.playWithFuctions()
+
+let maruthi: Car = Car()
+
+maruthi.name = "My Jungoo"
+maruthi.regNumber = 1234
+
+maruthi.start()
+maruthi.moveWithSpeed(speed: 120)
+maruthi.stop()
+
+Car.carClassMethod()
+Car.carStaticMethod()
+
+
+
+let maruthiTwo: Car = Car()
+
+maruthiTwo.name = "My Bambo"
+maruthiTwo.regNumber = 6789
+
+maruthiTwo.start()
+
+maruthiTwo.moveWithSpeed(speed: 20)
+maruthiTwo.moveWithSpeed(speed: 50)
+maruthiTwo.moveWithSpeed(speed: 90)
+maruthiTwo.moveWithSpeed(speed: 70)
+maruthiTwo.moveWithSpeed(speed: 20)
+maruthiTwo.moveWithSpeed(speed: 0)
+maruthiTwo.stop()
+
+

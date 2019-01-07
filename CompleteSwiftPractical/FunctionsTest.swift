@@ -50,10 +50,4 @@ class FunctionsTest {
     printTable(table: 10)
     numberOfDigits(value: 123)
     }
-    
-    
-    
-    
-    
-    
 }
