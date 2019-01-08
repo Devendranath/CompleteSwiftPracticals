@@ -66,3 +66,25 @@ maruthiTwo.moveWithSpeed(speed: 0)
 maruthiTwo.stop()
 
 
+let aHuman = Human()
+
+print(aHuman.age)
+print(aHuman.name)
+print(aHuman.numberOfLegs)
+
+let modi = Human(inputName: "Modi", inputAge: 1, tempLegs: 2)
+
+modi.myJob = Job()
+modi.myJob?.name = "Govt"
+modi.myJob?.salary = 100000
+modi.myJob?.designation = "PM"
+modi.myJob?.jobLocation = "New Delhi"
+
+print(modi.myJob?.name)
+print(modi.myJob?.salary)
+print(modi.myJob?.jobLocation)
+
+
+print(modi.age)
+print(modi.name)
+print(modi.numberOfLegs)

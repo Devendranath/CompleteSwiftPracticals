@@ -77,9 +77,7 @@ class Datatypes {
         print("\tABCDEFG \n\tHIJKL\"MNO\"P \n\tMNOPQRST \n\tSTUVWXYZ")
         
         // Comments (single line and multiline)
-        
-        
-        
+                        
         
 
     }

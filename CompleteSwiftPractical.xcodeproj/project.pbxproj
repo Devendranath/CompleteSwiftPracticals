@@ -17,6 +17,8 @@
 		18C0185921CB4BEB00E2B6AD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0185821CB4BEB00E2B6AD /* main.swift */; };
 		18C0186021CB4C4700E2B6AD /* 1-Datatypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0185F21CB4C4700E2B6AD /* 1-Datatypes.swift */; };
 		18DE7DA421E30A7F0020882A /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE7DA321E30A7F0020882A /* Classes.swift */; };
+		18DE7DCD21E4578C0020882A /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE7DCC21E4578C0020882A /* Human.swift */; };
+		18DE7DCF21E45BCC0020882A /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE7DCE21E45BCC0020882A /* Job.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,8 @@
 		18C0185821CB4BEB00E2B6AD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		18C0185F21CB4C4700E2B6AD /* 1-Datatypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-Datatypes.swift"; sourceTree = "<group>"; };
 		18DE7DA321E30A7F0020882A /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		18DE7DCC21E4578C0020882A /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		18DE7DCE21E45BCC0020882A /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				180E34B421DF14500025603B /* Person.swift */,
 				180E34BC21E0633E0025603B /* FunctionsTest.swift */,
 				18DE7DA321E30A7F0020882A /* Classes.swift */,
+				18DE7DCC21E4578C0020882A /* Human.swift */,
+				18DE7DCE21E45BCC0020882A /* Job.swift */,
 			);
 			path = CompleteSwiftPractical;
 			sourceTree = "<group>";
@@ -149,9 +155,11 @@
 				180E34BD21E0633E0025603B /* FunctionsTest.swift in Sources */,
 				18C0185921CB4BEB00E2B6AD /* main.swift in Sources */,
 				180E34B321DF0F360025603B /* Day-4-Optionals.swift in Sources */,
+				18DE7DCD21E4578C0020882A /* Human.swift in Sources */,
 				18BFB8C321CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift in Sources */,
 				180E34B721DF1CD30025603B /* Day-4-Functions.swift in Sources */,
 				18BFB8D121DDC538003A8C70 /* Day-3-TypeCast&Check.swift in Sources */,
+				18DE7DCF21E45BCC0020882A /* Job.swift in Sources */,
 				180E34B521DF14500025603B /* Person.swift in Sources */,
 				18BFB8CF21DDC0D1003A8C70 /* Day-3-Switch.swift in Sources */,
 				18DE7DA421E30A7F0020882A /* Classes.swift in Sources */,
