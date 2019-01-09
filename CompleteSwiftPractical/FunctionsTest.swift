@@ -10,7 +10,7 @@ import Foundation
 
 class FunctionsTest {
     
-    static func isEven(value: Int) -> Bool {
+    class func isEven(value: Int) -> Bool {
         if value % 2 == 0 {
             return true
         } else {

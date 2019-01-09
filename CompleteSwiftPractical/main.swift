@@ -8,6 +8,16 @@
 
 import Foundation
 
+var aIntz: Initialisers? = Initialisers()
+aIntz = nil
+let bIntz = Initialisers(tempD: 400)
+
+
+let properObj = Properties()
+properObj.subjectName = "Objective-C"
+
+properObj.displayInfo()
+
 // Day-1: Datatypes, TypeAnnotation, Inference, Tuples, String Interpolation
 
 Datatypes.playWithDatatypes()
@@ -88,3 +98,7 @@ print(modi.myJob?.jobLocation)
 print(modi.age)
 print(modi.name)
 print(modi.numberOfLegs)
+
+// Strings
+Strings.playWithStrings()
+
