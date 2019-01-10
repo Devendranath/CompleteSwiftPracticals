@@ -8,15 +8,26 @@
 
 import Foundation
 
-var aIntz: Initialisers? = Initialisers()
-aIntz = nil
-let bIntz = Initialisers(tempD: 400)
 
+let calcualtor = Calculator()
+calcualtor.add(a: 10, b: 20)
+calcualtor.sub(a: 40, b: 20)
+calcualtor.mul(a: 30, b: 40)
+calcualtor.div(a: 40, b: 10)
+print(calcualtor.result)
 
-let properObj = Properties()
-properObj.subjectName = "Objective-C"
+let sCal = ScientificCalculator()
+sCal.factorial(f: 5)
+print(sCal.result)
 
-properObj.displayInfo()
+sCal.add(a: 10, b: 300)
+
+let ol = Overloading()
+ol.display()
+ol.display(wish: "Hello")
+ol.display(value: 100)
+ol.display(name: "DENdf", weight: 13.12)
+ol.display(weight: 100.1, name: "sfsd")
 
 // Day-1: Datatypes, TypeAnnotation, Inference, Tuples, String Interpolation
 
@@ -102,3 +113,13 @@ print(modi.numberOfLegs)
 // Strings
 Strings.playWithStrings()
 
+// Initialisers
+
+var aIntz: Initialisers? = Initialisers()
+aIntz = nil
+let bIntz = Initialisers(tempD: 400)
+
+let properObj = Properties()
+properObj.subjectName = "Objective-C"
+
+properObj.displayInfo()
