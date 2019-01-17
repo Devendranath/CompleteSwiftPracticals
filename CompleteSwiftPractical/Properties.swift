@@ -21,8 +21,16 @@ class Properties {
     // Computed Properties
     
     var totalWeight: Float {
-        return tvWeight + remoteWeight
+        get {
+            return tvWeight + remoteWeight
+        }
+        set {
+            tvWeight = 10;
+            remoteWeight = 10;
+        }
     }
+    
+    
     
     
     // Static / Type / class level Properties
