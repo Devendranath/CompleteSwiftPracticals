@@ -46,6 +46,11 @@
 		180E34BC21E0633E0025603B /* FunctionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsTest.swift; sourceTree = "<group>"; };
 		1854373E21F0342700057DC1 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		1854374121F0433E00057DC1 /* 3.2-Sw-Classes&StructuresV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3.2-Sw-Classes&StructuresV3.1_PDF.pdf"; sourceTree = "<group>"; };
+		1854374221F0436C00057DC1 /* IQ-Slides_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IQ-Slides_PDF.pdf"; sourceTree = "<group>"; };
+		1854374321F0436D00057DC1 /* Da-2...Swiftv3.1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Da-2...Swiftv3.1.pdf"; sourceTree = "<group>"; };
+		1854374421F0436F00057DC1 /* Day-1-Tools-Overview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day-1-Tools-Overview.pdf"; sourceTree = "<group>"; };
+		1854374521F0436F00057DC1 /* 6-7 OOPsV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "6-7 OOPsV3.1_PDF.pdf"; sourceTree = "<group>"; };
+		1854374621F0436F00057DC1 /* 3.1-Sw-FunctionsV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3.1-Sw-FunctionsV3.1_PDF.pdf"; sourceTree = "<group>"; };
 		18BFB8C221CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-2_Operators+ControlStatements.swift"; sourceTree = "<group>"; };
 		18BFB8CE21DDC0D1003A8C70 /* Day-3-Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-3-Switch.swift"; sourceTree = "<group>"; };
 		18BFB8D021DDC538003A8C70 /* Day-3-TypeCast&Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-3-TypeCast&Check.swift"; sourceTree = "<group>"; };
@@ -76,6 +81,11 @@
 		1854374021F042B900057DC1 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				1854374621F0436F00057DC1 /* 3.1-Sw-FunctionsV3.1_PDF.pdf */,
+				1854374521F0436F00057DC1 /* 6-7 OOPsV3.1_PDF.pdf */,
+				1854374321F0436D00057DC1 /* Da-2...Swiftv3.1.pdf */,
+				1854374421F0436F00057DC1 /* Day-1-Tools-Overview.pdf */,
+				1854374221F0436C00057DC1 /* IQ-Slides_PDF.pdf */,
 				1854374121F0433E00057DC1 /* 3.2-Sw-Classes&StructuresV3.1_PDF.pdf */,
 			);
 			path = Documentation;
