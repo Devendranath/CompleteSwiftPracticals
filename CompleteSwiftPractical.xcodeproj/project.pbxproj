@@ -45,6 +45,7 @@
 		180E34B621DF1CD30025603B /* Day-4-Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-4-Functions.swift"; sourceTree = "<group>"; };
 		180E34BC21E0633E0025603B /* FunctionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsTest.swift; sourceTree = "<group>"; };
 		1854373E21F0342700057DC1 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		1854374121F0433E00057DC1 /* 3.2-Sw-Classes&StructuresV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3.2-Sw-Classes&StructuresV3.1_PDF.pdf"; sourceTree = "<group>"; };
 		18BFB8C221CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-2_Operators+ControlStatements.swift"; sourceTree = "<group>"; };
 		18BFB8CE21DDC0D1003A8C70 /* Day-3-Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-3-Switch.swift"; sourceTree = "<group>"; };
 		18BFB8D021DDC538003A8C70 /* Day-3-TypeCast&Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-3-TypeCast&Check.swift"; sourceTree = "<group>"; };
@@ -72,9 +73,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1854374021F042B900057DC1 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				1854374121F0433E00057DC1 /* 3.2-Sw-Classes&StructuresV3.1_PDF.pdf */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
 		18C0184C21CB4BEA00E2B6AD = {
 			isa = PBXGroup;
 			children = (
+				1854374021F042B900057DC1 /* Documentation */,
 				18C0185721CB4BEB00E2B6AD /* CompleteSwiftPractical */,
 				18C0185621CB4BEB00E2B6AD /* Products */,
 			);
