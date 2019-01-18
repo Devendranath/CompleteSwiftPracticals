@@ -57,6 +57,9 @@
 		1854376C21F1847900057DC1 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		1854376E21F1916600057DC1 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		1854377021F1968300057DC1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1854377221F199F300057DC1 /* 12-Sw-Extensions_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "12-Sw-Extensions_PDF.pdf"; sourceTree = "<group>"; };
+		1854377321F199F300057DC1 /* 3.3-Sw-EnumsV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3.3-Sw-EnumsV3.1_PDF.pdf"; sourceTree = "<group>"; };
+		1854377421F199F300057DC1 /* 11-Sw-ProtocolsV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "11-Sw-ProtocolsV3.1_PDF.pdf"; sourceTree = "<group>"; };
 		18BFB8C221CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-2_Operators+ControlStatements.swift"; sourceTree = "<group>"; };
 		18BFB8CE21DDC0D1003A8C70 /* Day-3-Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-3-Switch.swift"; sourceTree = "<group>"; };
 		18BFB8D021DDC538003A8C70 /* Day-3-TypeCast&Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-3-TypeCast&Check.swift"; sourceTree = "<group>"; };
@@ -89,6 +92,9 @@
 			children = (
 				1854374621F0436F00057DC1 /* 3.1-Sw-FunctionsV3.1_PDF.pdf */,
 				1854374521F0436F00057DC1 /* 6-7 OOPsV3.1_PDF.pdf */,
+				1854377321F199F300057DC1 /* 3.3-Sw-EnumsV3.1_PDF.pdf */,
+				1854377421F199F300057DC1 /* 11-Sw-ProtocolsV3.1_PDF.pdf */,
+				1854377221F199F300057DC1 /* 12-Sw-Extensions_PDF.pdf */,
 				1854374321F0436D00057DC1 /* Da-2...Swiftv3.1.pdf */,
 				1854374421F0436F00057DC1 /* Day-1-Tools-Overview.pdf */,
 				1854374221F0436C00057DC1 /* IQ-Slides_PDF.pdf */,
