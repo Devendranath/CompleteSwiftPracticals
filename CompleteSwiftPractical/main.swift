@@ -8,6 +8,9 @@
 
 import Foundation
 
+Extensions.playWithExtensions()
+
+Enums.playWithEnums()
 
 let calcualtor = Calculator()
 calcualtor.add(a: 10, b: 20)
@@ -185,5 +188,6 @@ let xCal = ScientificCalculator()
 if xCal is Calculator {
     print("xCal is Calculator")
 }
+
 
 

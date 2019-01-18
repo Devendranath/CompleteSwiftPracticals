@@ -12,6 +12,9 @@
 		180E34B721DF1CD30025603B /* Day-4-Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E34B621DF1CD30025603B /* Day-4-Functions.swift */; };
 		180E34BD21E0633E0025603B /* FunctionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E34BC21E0633E0025603B /* FunctionsTest.swift */; };
 		1854373F21F0342700057DC1 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854373E21F0342700057DC1 /* Structures.swift */; };
+		1854376D21F1847900057DC1 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854376C21F1847900057DC1 /* Enums.swift */; };
+		1854376F21F1916600057DC1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854376E21F1916600057DC1 /* Protocols.swift */; };
+		1854377121F1968300057DC1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854377021F1968300057DC1 /* Extensions.swift */; };
 		18BFB8C321CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFB8C221CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift */; };
 		18BFB8CF21DDC0D1003A8C70 /* Day-3-Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFB8CE21DDC0D1003A8C70 /* Day-3-Switch.swift */; };
 		18BFB8D121DDC538003A8C70 /* Day-3-TypeCast&Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFB8D021DDC538003A8C70 /* Day-3-TypeCast&Check.swift */; };
@@ -51,6 +54,9 @@
 		1854374421F0436F00057DC1 /* Day-1-Tools-Overview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day-1-Tools-Overview.pdf"; sourceTree = "<group>"; };
 		1854374521F0436F00057DC1 /* 6-7 OOPsV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "6-7 OOPsV3.1_PDF.pdf"; sourceTree = "<group>"; };
 		1854374621F0436F00057DC1 /* 3.1-Sw-FunctionsV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3.1-Sw-FunctionsV3.1_PDF.pdf"; sourceTree = "<group>"; };
+		1854376C21F1847900057DC1 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		1854376E21F1916600057DC1 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		1854377021F1968300057DC1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		18BFB8C221CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-2_Operators+ControlStatements.swift"; sourceTree = "<group>"; };
 		18BFB8CE21DDC0D1003A8C70 /* Day-3-Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-3-Switch.swift"; sourceTree = "<group>"; };
 		18BFB8D021DDC538003A8C70 /* Day-3-TypeCast&Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-3-TypeCast&Check.swift"; sourceTree = "<group>"; };
@@ -129,6 +135,9 @@
 				18DE7DD821E700970020882A /* Overloading.swift */,
 				18DE7DD021E4FF7D0020882A /* Strings.swift */,
 				1854373E21F0342700057DC1 /* Structures.swift */,
+				1854376C21F1847900057DC1 /* Enums.swift */,
+				1854376E21F1916600057DC1 /* Protocols.swift */,
+				1854377021F1968300057DC1 /* Extensions.swift */,
 			);
 			path = CompleteSwiftPractical;
 			sourceTree = "<group>";
@@ -203,11 +212,14 @@
 				18BFB8D121DDC538003A8C70 /* Day-3-TypeCast&Check.swift in Sources */,
 				18DE7DD121E4FF7D0020882A /* Strings.swift in Sources */,
 				18DE7DD721E6FB6A0020882A /* Inheritence.swift in Sources */,
+				1854377121F1968300057DC1 /* Extensions.swift in Sources */,
 				18DE7DCF21E45BCC0020882A /* Job.swift in Sources */,
 				180E34B521DF14500025603B /* Person.swift in Sources */,
+				1854376F21F1916600057DC1 /* Protocols.swift in Sources */,
 				18BFB8CF21DDC0D1003A8C70 /* Day-3-Switch.swift in Sources */,
 				18DE7DA421E30A7F0020882A /* Classes.swift in Sources */,
 				18C0186021CB4C4700E2B6AD /* 1-Datatypes.swift in Sources */,
+				1854376D21F1847900057DC1 /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
