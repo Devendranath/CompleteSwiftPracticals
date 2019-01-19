@@ -47,6 +47,11 @@
 		180E34B421DF14500025603B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		180E34B621DF1CD30025603B /* Day-4-Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-4-Functions.swift"; sourceTree = "<group>"; };
 		180E34BC21E0633E0025603B /* FunctionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsTest.swift; sourceTree = "<group>"; };
+		181EB09D21F2F308005BBF01 /* PlayWithStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PlayWithStrings.playground; sourceTree = "<group>"; };
+		181EB09E21F2F308005BBF01 /* PlayWithCollections.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PlayWithCollections.playground; sourceTree = "<group>"; };
+		181EB09F21F2F309005BBF01 /* Dictionaries.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionaries.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		181EB0A021F2F309005BBF01 /* Sets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sets.playground; sourceTree = "<group>"; };
+		181EB0A121F2F33B005BBF01 /* 9-10 sw-CollectionsV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "9-10 sw-CollectionsV3.1_PDF.pdf"; sourceTree = "<group>"; };
 		1854373E21F0342700057DC1 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		1854374121F0433E00057DC1 /* 3.2-Sw-Classes&StructuresV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3.2-Sw-Classes&StructuresV3.1_PDF.pdf"; sourceTree = "<group>"; };
 		1854374221F0436C00057DC1 /* IQ-Slides_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IQ-Slides_PDF.pdf"; sourceTree = "<group>"; };
@@ -90,6 +95,7 @@
 		1854374021F042B900057DC1 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				181EB0A121F2F33B005BBF01 /* 9-10 sw-CollectionsV3.1_PDF.pdf */,
 				1854374621F0436F00057DC1 /* 3.1-Sw-FunctionsV3.1_PDF.pdf */,
 				1854374521F0436F00057DC1 /* 6-7 OOPsV3.1_PDF.pdf */,
 				1854377321F199F300057DC1 /* 3.3-Sw-EnumsV3.1_PDF.pdf */,
@@ -144,6 +150,10 @@
 				1854376C21F1847900057DC1 /* Enums.swift */,
 				1854376E21F1916600057DC1 /* Protocols.swift */,
 				1854377021F1968300057DC1 /* Extensions.swift */,
+				181EB09F21F2F309005BBF01 /* Dictionaries.playground */,
+				181EB09E21F2F308005BBF01 /* PlayWithCollections.playground */,
+				181EB09D21F2F308005BBF01 /* PlayWithStrings.playground */,
+				181EB0A021F2F309005BBF01 /* Sets.playground */,
 			);
 			path = CompleteSwiftPractical;
 			sourceTree = "<group>";
