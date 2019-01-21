@@ -7,14 +7,15 @@
 //
 
 import Foundation
- protocol ArithamaticProtocol {
+@objc protocol ArithamaticProtocol { //1
     var a: Int {get set}
     var b: Int {get}
     
-    func add()
+    @objc func add() //2
     func sub()
     func mul()
     func Div()
+    func mod() // 3
 }
 
 protocol AdvancedArithamaticProtocol {
