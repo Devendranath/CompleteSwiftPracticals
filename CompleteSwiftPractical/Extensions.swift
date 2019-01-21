@@ -24,6 +24,10 @@ extension String {
     }
 }
 
+/*
+ protocol which has optional properties or methods are only adopted by Classes.
+
 extension String: ArithamaticProtocol {
-    
+
 }
+*/

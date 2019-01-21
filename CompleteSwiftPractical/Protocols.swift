@@ -11,7 +11,7 @@ import Foundation
     var a: Int {get set}
     var b: Int {get}
     
-    @objc func add() //2
+   @objc optional func add()
     func sub()
     func mul()
     func Div()
@@ -27,9 +27,6 @@ protocol AdvancedArithamaticProtocol {
 }
 
 class BasicCalc: ArithamaticProtocol {
-    func add() {
-        
-    }
     
     var a: Int = 0
     

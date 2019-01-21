@@ -8,6 +8,14 @@
 
 import Foundation
 
+Dictionaries.PlayWithDictionaries()
+
+Collections.PlayWithCollections()
+
+StringOperations.PlayWithStrings()
+
+Sets.PlayWithSets()
+
 Extensions.playWithExtensions()
 
 Enums.playWithEnums()
