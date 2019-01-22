@@ -11,6 +11,12 @@
 		180E34B521DF14500025603B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E34B421DF14500025603B /* Person.swift */; };
 		180E34B721DF1CD30025603B /* Day-4-Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E34B621DF1CD30025603B /* Day-4-Functions.swift */; };
 		180E34BD21E0633E0025603B /* FunctionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E34BC21E0633E0025603B /* FunctionsTest.swift */; };
+		181EB0A521F578EB005BBF01 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB0A421F578EB005BBF01 /* File.swift */; };
+		181EB0AA21F57942005BBF01 /* Sets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB0A621F57942005BBF01 /* Sets.swift */; };
+		181EB0AB21F57942005BBF01 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB0A721F57942005BBF01 /* Collections.swift */; };
+		181EB0AC21F57942005BBF01 /* Dictionaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB0A821F57942005BBF01 /* Dictionaries.swift */; };
+		181EB0AD21F57942005BBF01 /* StringOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB0A921F57942005BBF01 /* StringOperations.swift */; };
+		181EB0AF21F57C71005BBF01 /* AccessSpecifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB0AE21F57C71005BBF01 /* AccessSpecifiers.swift */; };
 		1854373F21F0342700057DC1 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854373E21F0342700057DC1 /* Structures.swift */; };
 		1854376D21F1847900057DC1 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854376C21F1847900057DC1 /* Enums.swift */; };
 		1854376F21F1916600057DC1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854376E21F1916600057DC1 /* Protocols.swift */; };
@@ -28,10 +34,6 @@
 		18DE7DD521E5B3A90020882A /* Initialisers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE7DD421E5B3A90020882A /* Initialisers.swift */; };
 		18DE7DD721E6FB6A0020882A /* Inheritence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE7DD621E6FB6A0020882A /* Inheritence.swift */; };
 		18DE7DD921E700970020882A /* Overloading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE7DD821E700970020882A /* Overloading.swift */; };
-		F58AEDD621F308CD0005F5DA /* Dictionaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AEDD521F308CD0005F5DA /* Dictionaries.swift */; };
-		F58AEDD821F30A130005F5DA /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AEDD721F30A130005F5DA /* Collections.swift */; };
-		F58AEDDA21F30AB20005F5DA /* StringOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AEDD921F30AB20005F5DA /* StringOperations.swift */; };
-		F58AEDDC21F30B370005F5DA /* Sets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AEDDB21F30B370005F5DA /* Sets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,11 +53,15 @@
 		180E34B421DF14500025603B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		180E34B621DF1CD30025603B /* Day-4-Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day-4-Functions.swift"; sourceTree = "<group>"; };
 		180E34BC21E0633E0025603B /* FunctionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsTest.swift; sourceTree = "<group>"; };
-		181EB09D21F2F308005BBF01 /* PlayWithStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PlayWithStrings.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		181EB09E21F2F308005BBF01 /* PlayWithCollections.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PlayWithCollections.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		181EB09F21F2F309005BBF01 /* Dictionaries.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionaries.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		181EB0A021F2F309005BBF01 /* Sets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		181EB0A121F2F33B005BBF01 /* 9-10 sw-CollectionsV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "9-10 sw-CollectionsV3.1_PDF.pdf"; sourceTree = "<group>"; };
+		181EB0A421F578EB005BBF01 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		181EB0A621F57942005BBF01 /* Sets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sets.swift; sourceTree = "<group>"; };
+		181EB0A721F57942005BBF01 /* Collections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
+		181EB0A821F57942005BBF01 /* Dictionaries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionaries.swift; sourceTree = "<group>"; };
+		181EB0A921F57942005BBF01 /* StringOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringOperations.swift; sourceTree = "<group>"; };
+		181EB0AE21F57C71005BBF01 /* AccessSpecifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessSpecifiers.swift; sourceTree = "<group>"; };
+		181EB15321F6CA01005BBF01 /* 16-Sw-AccessControl_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "16-Sw-AccessControl_PDF.pdf"; sourceTree = "<group>"; };
+		181EB15421F6CA02005BBF01 /* 17 Sw-MemoryManagement_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "17 Sw-MemoryManagement_PDF.pdf"; sourceTree = "<group>"; };
 		1854373E21F0342700057DC1 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		1854374121F0433E00057DC1 /* 3.2-Sw-Classes&StructuresV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3.2-Sw-Classes&StructuresV3.1_PDF.pdf"; sourceTree = "<group>"; };
 		1854374221F0436C00057DC1 /* IQ-Slides_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IQ-Slides_PDF.pdf"; sourceTree = "<group>"; };
@@ -83,10 +89,6 @@
 		18DE7DD421E5B3A90020882A /* Initialisers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initialisers.swift; sourceTree = "<group>"; };
 		18DE7DD621E6FB6A0020882A /* Inheritence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritence.swift; sourceTree = "<group>"; };
 		18DE7DD821E700970020882A /* Overloading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overloading.swift; sourceTree = "<group>"; };
-		F58AEDD521F308CD0005F5DA /* Dictionaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionaries.swift; sourceTree = "<group>"; };
-		F58AEDD721F30A130005F5DA /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
-		F58AEDD921F30AB20005F5DA /* StringOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringOperations.swift; sourceTree = "<group>"; };
-		F58AEDDB21F30B370005F5DA /* Sets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,8 @@
 				1854377321F199F300057DC1 /* 3.3-Sw-EnumsV3.1_PDF.pdf */,
 				1854377421F199F300057DC1 /* 11-Sw-ProtocolsV3.1_PDF.pdf */,
 				1854377221F199F300057DC1 /* 12-Sw-Extensions_PDF.pdf */,
+				181EB15321F6CA01005BBF01 /* 16-Sw-AccessControl_PDF.pdf */,
+				181EB15421F6CA02005BBF01 /* 17 Sw-MemoryManagement_PDF.pdf */,
 				1854374321F0436D00057DC1 /* Da-2...Swiftv3.1.pdf */,
 				1854374421F0436F00057DC1 /* Day-1-Tools-Overview.pdf */,
 				1854374221F0436C00057DC1 /* IQ-Slides_PDF.pdf */,
@@ -138,6 +142,10 @@
 			isa = PBXGroup;
 			children = (
 				18C0185821CB4BEB00E2B6AD /* main.swift */,
+				181EB0A721F57942005BBF01 /* Collections.swift */,
+				181EB0A821F57942005BBF01 /* Dictionaries.swift */,
+				181EB0A621F57942005BBF01 /* Sets.swift */,
+				181EB0A921F57942005BBF01 /* StringOperations.swift */,
 				18C0185F21CB4C4700E2B6AD /* 1-Datatypes.swift */,
 				18BFB8C221CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift */,
 				18BFB8CE21DDC0D1003A8C70 /* Day-3-Switch.swift */,
@@ -158,14 +166,8 @@
 				1854376C21F1847900057DC1 /* Enums.swift */,
 				1854376E21F1916600057DC1 /* Protocols.swift */,
 				1854377021F1968300057DC1 /* Extensions.swift */,
-				F58AEDD521F308CD0005F5DA /* Dictionaries.swift */,
-				F58AEDD721F30A130005F5DA /* Collections.swift */,
-				F58AEDD921F30AB20005F5DA /* StringOperations.swift */,
-				F58AEDDB21F30B370005F5DA /* Sets.swift */,
-				181EB09F21F2F309005BBF01 /* Dictionaries.playground */,
-				181EB09E21F2F308005BBF01 /* PlayWithCollections.playground */,
-				181EB09D21F2F308005BBF01 /* PlayWithStrings.playground */,
-				181EB0A021F2F309005BBF01 /* Sets.playground */,
+				181EB0A421F578EB005BBF01 /* File.swift */,
+				181EB0AE21F57C71005BBF01 /* AccessSpecifiers.swift */,
 			);
 			path = CompleteSwiftPractical;
 			sourceTree = "<group>";
@@ -228,23 +230,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				180E34BD21E0633E0025603B /* FunctionsTest.swift in Sources */,
+				181EB0AC21F57942005BBF01 /* Dictionaries.swift in Sources */,
 				1854373F21F0342700057DC1 /* Structures.swift in Sources */,
-				F58AEDDC21F30B370005F5DA /* Sets.swift in Sources */,
 				18C0185921CB4BEB00E2B6AD /* main.swift in Sources */,
-				F58AEDD621F308CD0005F5DA /* Dictionaries.swift in Sources */,
+				181EB0AB21F57942005BBF01 /* Collections.swift in Sources */,
 				180E34B321DF0F360025603B /* Day-4-Optionals.swift in Sources */,
 				18DE7DCD21E4578C0020882A /* Human.swift in Sources */,
-				F58AEDD821F30A130005F5DA /* Collections.swift in Sources */,
 				18BFB8C321CCA759003A8C70 /* Day-2_Operators+ControlStatements.swift in Sources */,
 				18DE7DD921E700970020882A /* Overloading.swift in Sources */,
 				180E34B721DF1CD30025603B /* Day-4-Functions.swift in Sources */,
 				18DE7DD321E5AD750020882A /* Properties.swift in Sources */,
+				181EB0A521F578EB005BBF01 /* File.swift in Sources */,
 				18DE7DD521E5B3A90020882A /* Initialisers.swift in Sources */,
-				F58AEDDA21F30AB20005F5DA /* StringOperations.swift in Sources */,
+				181EB0AA21F57942005BBF01 /* Sets.swift in Sources */,
 				18BFB8D121DDC538003A8C70 /* Day-3-TypeCast&Check.swift in Sources */,
+				181EB0AF21F57C71005BBF01 /* AccessSpecifiers.swift in Sources */,
 				18DE7DD121E4FF7D0020882A /* Strings.swift in Sources */,
 				18DE7DD721E6FB6A0020882A /* Inheritence.swift in Sources */,
 				1854377121F1968300057DC1 /* Extensions.swift in Sources */,
+				181EB0AD21F57942005BBF01 /* StringOperations.swift in Sources */,
 				18DE7DCF21E45BCC0020882A /* Job.swift in Sources */,
 				180E34B521DF14500025603B /* Person.swift in Sources */,
 				1854376F21F1916600057DC1 /* Protocols.swift in Sources */,

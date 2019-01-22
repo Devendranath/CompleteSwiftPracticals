@@ -197,5 +197,13 @@ if xCal is Calculator {
     print("xCal is Calculator")
 }
 
+let acs = AccessSpecifiers()
+
+print(acs.aOpenProperty)
+print(acs.aPublicProperty)
+print(acs.anInternalProperty)
+//print(acs.aPrivateProperty)
+//print(acs.aFilePrivateProperty)
+print(acs.defaultInternalProperty)
 
 

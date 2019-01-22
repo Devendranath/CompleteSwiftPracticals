@@ -49,9 +49,18 @@ class BasicCalc: ArithamaticProtocol {
     func Div() {
         print(a / b)
     }
+    
+    func mod() {
+        print(a % b)
+    }
 }
 
 class ScientificCalc: ArithamaticProtocol, AdvancedArithamaticProtocol {
+    
+    func mod() {
+        
+    }
+    
     func add() {
         
     }
