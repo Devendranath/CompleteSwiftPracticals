@@ -8,6 +8,11 @@
 
 import Foundation
 
+// Higher Order functions
+HOF.playWithHOF()
+
+Closures.playWithClosures()
+
 Dictionaries.PlayWithDictionaries()
 
 Collections.PlayWithCollections()

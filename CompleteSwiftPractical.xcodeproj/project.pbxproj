@@ -17,6 +17,8 @@
 		181EB0AC21F57942005BBF01 /* Dictionaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB0A821F57942005BBF01 /* Dictionaries.swift */; };
 		181EB0AD21F57942005BBF01 /* StringOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB0A921F57942005BBF01 /* StringOperations.swift */; };
 		181EB0AF21F57C71005BBF01 /* AccessSpecifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB0AE21F57C71005BBF01 /* AccessSpecifiers.swift */; };
+		181EB15621F6CB82005BBF01 /* HOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB15521F6CB82005BBF01 /* HOF.swift */; };
+		181EB15821F6D450005BBF01 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EB15721F6D450005BBF01 /* Closures.swift */; };
 		1854373F21F0342700057DC1 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854373E21F0342700057DC1 /* Structures.swift */; };
 		1854376D21F1847900057DC1 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854376C21F1847900057DC1 /* Enums.swift */; };
 		1854376F21F1916600057DC1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854376E21F1916600057DC1 /* Protocols.swift */; };
@@ -62,6 +64,8 @@
 		181EB0AE21F57C71005BBF01 /* AccessSpecifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessSpecifiers.swift; sourceTree = "<group>"; };
 		181EB15321F6CA01005BBF01 /* 16-Sw-AccessControl_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "16-Sw-AccessControl_PDF.pdf"; sourceTree = "<group>"; };
 		181EB15421F6CA02005BBF01 /* 17 Sw-MemoryManagement_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "17 Sw-MemoryManagement_PDF.pdf"; sourceTree = "<group>"; };
+		181EB15521F6CB82005BBF01 /* HOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOF.swift; sourceTree = "<group>"; };
+		181EB15721F6D450005BBF01 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		1854373E21F0342700057DC1 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		1854374121F0433E00057DC1 /* 3.2-Sw-Classes&StructuresV3.1_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3.2-Sw-Classes&StructuresV3.1_PDF.pdf"; sourceTree = "<group>"; };
 		1854374221F0436C00057DC1 /* IQ-Slides_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IQ-Slides_PDF.pdf"; sourceTree = "<group>"; };
@@ -168,6 +172,8 @@
 				1854377021F1968300057DC1 /* Extensions.swift */,
 				181EB0A421F578EB005BBF01 /* File.swift */,
 				181EB0AE21F57C71005BBF01 /* AccessSpecifiers.swift */,
+				181EB15521F6CB82005BBF01 /* HOF.swift */,
+				181EB15721F6D450005BBF01 /* Closures.swift */,
 			);
 			path = CompleteSwiftPractical;
 			sourceTree = "<group>";
@@ -242,6 +248,7 @@
 				18DE7DD321E5AD750020882A /* Properties.swift in Sources */,
 				181EB0A521F578EB005BBF01 /* File.swift in Sources */,
 				18DE7DD521E5B3A90020882A /* Initialisers.swift in Sources */,
+				181EB15821F6D450005BBF01 /* Closures.swift in Sources */,
 				181EB0AA21F57942005BBF01 /* Sets.swift in Sources */,
 				18BFB8D121DDC538003A8C70 /* Day-3-TypeCast&Check.swift in Sources */,
 				181EB0AF21F57C71005BBF01 /* AccessSpecifiers.swift in Sources */,
@@ -254,6 +261,7 @@
 				1854376F21F1916600057DC1 /* Protocols.swift in Sources */,
 				18BFB8CF21DDC0D1003A8C70 /* Day-3-Switch.swift in Sources */,
 				18DE7DA421E30A7F0020882A /* Classes.swift in Sources */,
+				181EB15621F6CB82005BBF01 /* HOF.swift in Sources */,
 				18C0186021CB4C4700E2B6AD /* 1-Datatypes.swift in Sources */,
 				1854376D21F1847900057DC1 /* Enums.swift in Sources */,
 			);
