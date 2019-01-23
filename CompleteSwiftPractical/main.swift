@@ -8,6 +8,51 @@
 
 import Foundation
 
+let myIntStack = Stack<Int>()
+
+myIntStack.push(anElement: 0)
+myIntStack.push(anElement: 1)
+myIntStack.push(anElement: 10)
+
+myIntStack.pop()
+myIntStack.pop()
+
+
+let myStringsStack: Stack<String> = Stack<String>()
+
+
+myStringsStack.push(anElement: "Zero")
+myStringsStack.push(anElement: "sfsdf")
+myStringsStack.push(anElement: "Blah blahj sdf")
+
+myStringsStack.pop()
+myStringsStack.pop()
+
+
+
+
+
+
+
+
+typealias Subscripts = School
+let generics = Generics()
+
+let intAddition = generics.add(a: 10, b: 22);
+print(intAddition)
+
+let floatAddition = generics.add(a: 12.12, b: 11.11)
+
+let intSub = generics.sub(a: 10, b: 20)
+
+print(intSub)
+
+let floatSub = generics.sub(a: 10.39, b: 20.20)
+print(floatSub)
+
+
+Subscripts.playWithSubscripts()
+
 // Higher Order functions
 HOF.playWithHOF()
 

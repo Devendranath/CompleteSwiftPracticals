@@ -18,8 +18,6 @@ class Closures {
         
         getDataFromServer(a: a, completionHandler: completionHandler);
         
-        
-        
         getDataFromServer(a: 10) { (data) in
             print("Got Data from server: \(data)")
         }
