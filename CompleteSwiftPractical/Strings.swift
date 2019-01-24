@@ -11,50 +11,76 @@ import Foundation
 class Strings {
     
     static func playWithStrings() {
- 
-        // Creating Strings
-        let firstName = "DN"
-        let lastName = "REDDi"
+        // Creating String Objects
         
-        //Finding number of characters in a string
-        print(firstName.count)
+        var firstName = String("DN")
+        var lastName = "Reddi"
+        var blog: String = "iOSProofs.Blogspot.com"
         
-        //Adding two Strings
-        let fullName = firstName + lastName
-        let fullName2 = firstName.appending(lastName)
+        // checking number of characters in a string
+        firstName.count
+        lastName.count
+        blog.count
         
-        print("Full Name is: \(fullName)")
-        print("Full Name is: \(fullName2)")
+        // comparing two strings
         
-        //Comparing Two Strings
-        
-        if fullName == fullName2 {
-            print("First Name and last name is equal")
+        if firstName == lastName {
+            print("First name and last names are equal")
         } else {
-            print("First name and last name is not equal")
+            print("First name and last names not equal")
         }
         
-        // Finding start and end indexes
-        print("Start index: \(firstName.startIndex)")
-        print("End index: \(firstName.endIndex)")
-        //finding the character at given Index
+        if firstName.isEmpty {
+            print("Please enter first name!")
+        } else {
+            print("Cool!")
+        }
         
-        let index = String.Index(encodedOffset: 1)
-        print("Character at index \(firstName[index])")
+        // Getting a character at given String.Index
         
-        /*
-        Substring
-        Lowercase String
-        Uppercase String
-        Truncating Strings
-        Discarding edge spaces of a string
-        Remove characters in a string
-        Finding the existance of a substring in a string
-        Converting strings in to numbers
-        Multiline string
-        String Interpolation
-        Fast enumeration on String
-        */
-
+        let index = String.Index(encodedOffset: 5);
+        blog[index]
+        let edge = String.Index(encodedOffset: 9);
+        blog[index...edge]
+        
+        // checking suffix and prefix
+        
+        if blog.hasPrefix("iOSProofs") {
+            print("Blog is started with : iOSProofs")
+        }
+        
+        if blog.hasSuffix(".com") {
+            print("it is .com")
+        }
+        
+        // Concatination strings
+        let fullName = firstName + " " + lastName
+        
+        // trimming extra spaces
+        let res = "   soemr sf sdfsdfsd    ".trimmingCharacters(in: CharacterSet(charactersIn: " "))
+        
+        // Breaking a string into pieces
+        let s = "Biryani;Dosa;pakoda;chapathi"
+        let item = s.split(separator: ";")
+        
+        // existence
+        
+        if blog.contains("Blogspot") {
+            print("Blog spot exiting")
+        }
+        
+        // replacing
+        
+        let a = "Modi asdfsdfs Modi sdfsdfsd Modi  sdfsd "
+        let rr = a.replacingOccurrences(of: "Modi", with: "Raandi")
+        
+        // Conversion
+        let phon = Int("999999999")
+        
+        var mc = "ABC"
+        
+        print(mc)
+        
+        
     }
 }
